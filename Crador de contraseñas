@@ -1,0 +1,8 @@
+import random
+
+caracteres = "+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+num = int(input("Ingresa la longitud"))
+pswrd = ""
+for i in range(num):
+    pswrd += random.choice(caracteres)
+print(pswrd)
